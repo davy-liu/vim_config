@@ -28,10 +28,17 @@ nnoremap <leader>g :NERDTreeToggle<CR>
 nnoremap <leader>f :Files .<CR>
 
 let g:coc_global_extensions = [
-	\'coc-json',
-	\'coc-vimlsp',
-	\'coc-marketplace']
-
+\'coc-clangd',
+\'coc-fzf-preview',
+\'coc-json',
+\'coc-marketplace',
+\'coc-python',
+\'coc-rainbow-fart',
+\'coc-sh',
+\'coc-snippets',
+\'coc-tsserver',
+\'coc-vimlsp',
+\'coc-xml']
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
